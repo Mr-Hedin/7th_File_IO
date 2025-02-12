@@ -1,3 +1,10 @@
+"""
+Lesson 2: Seek
+In this lesson you will learn about the file's pointer and how to navigate the data in your files.
+
+.seek(0) - sends your pointer back to the beginning of the file
+"""
+
 # Create a sample story file
 with open("story.txt", "w") as file:
     file.write("Once upon a time, there was a young programmer.\n")
