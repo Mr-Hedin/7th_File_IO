@@ -5,7 +5,7 @@ to record a log of thoughts, data, or other information you'd like to save for l
 import os
 from datetime import datetime
 # First, create a new file based on user input
-file_name = input("Enter the name of the file to create: ")
+#file_name = input("Enter the name of the file to create: ")
 
 def list_files():
     # List all files in the current directory

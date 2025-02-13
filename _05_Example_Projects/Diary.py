@@ -46,7 +46,7 @@ while True:
     elif choice == "2":
         add_entry()
     elif choice == "3":
-        print("\nGoodbye! See you next time!")
+        print("\nGoodbye! Your secrets are safe with us!... Not really. You should probably encrypt this file...")
         break
     else:
         print("\nPlease choose 1, 2, or 3") 
