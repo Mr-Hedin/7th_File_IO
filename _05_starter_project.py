@@ -29,13 +29,6 @@ def read_file(file_name):
     """
     pass
 
-def generate_html(log_file, output_file, title):
-    """
-    Generates an HTML file from the contents of a log file.
-    
-    TODO: Read data from the log file, format it in HTML, and write to the output file.
-    """
-    pass
 
 def show_menu():
     """
