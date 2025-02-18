@@ -13,7 +13,7 @@ def create_file(file_name):
     """
     pass
 
-def append_entry(file_name, entry):
+def append_entry(file_name):
     """
     Appends an entry (e.g., a log or diary entry) to an existing file.
     
