@@ -1,5 +1,5 @@
 """
-Project Starter for File I/O and HTML Generation
+Project Starter for File I/O
 
 This template provides the basic structure and function definitions.
 Students should fill in the implementation details and expand on the functionality.
@@ -29,6 +29,12 @@ def read_file(file_name):
     """
     pass
 
+def list_files():
+    """
+    Displays the names of the files in the current directory.
+    
+    TODO: Implement file listing.
+    """
 
 def show_menu():
     """
@@ -40,7 +46,7 @@ def show_menu():
     print("1. Create a new file")
     print("2. Append an entry to a file")
     print("3. Read a file")
-    print("4. Generate HTML from a file")
+    print("4. List available files")
     print("5. Exit")
     return input("Enter your choice (1-5): ")
 
@@ -62,7 +68,7 @@ def main():
             # TODO: Use the input() command to ask the user for the file name and call read_file() to read that file.
             pass
         elif choice == "4":
-            # TODO: Use input() commands to ask the user for the log file name, output HTML file name, and title, then call generate_html() to generate the HTML file.
+            # TODO: Use the print() command to add some formatting when you print your files. Call list_files() once you've completed it to print the filenames.
             pass
         elif choice == "5":
             # TODO: Use the print() command to give a goodbye message to the user.
